@@ -25,7 +25,8 @@ rainbow sequence. You can download the code from our Github
 [repository](https://github.com/iwannacode-com/blog/tree/master/post0001).
 
 
-`int buttonPin = D2;
+```
+int buttonPin = D2;
 int buttonState;
 
 unsigned long ledSignalingCounter;
@@ -97,4 +98,5 @@ void loop() {
       ledSignalingCounter = now;
     }
   }
-}`
+}
+```
